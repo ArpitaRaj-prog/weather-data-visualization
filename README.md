@@ -1,22 +1,60 @@
 # Weather Data Visualization
 
-This project fetches weather data from the OpenWeatherMap API and visualizes it using Python.
+This project fetches real-time weather data from the OpenWeatherMap API and visualizes temperature data using Python.
 
-## Features:
-- Fetches temperature data
-- Displays it using matplotlib
-- Clean and simple structure
+## 📌 Project Description
 
-## Dependencies:
-- requests
-- matplotlib
+- Fetches weather data using the OpenWeatherMap API.
+- Parses temperature and timestamp data.
+- Visualizes the temperature using Matplotlib (can be extended to Seaborn).
+- Simple and clean code with proper comments.
 
-## How to run:
+## 🛠 Technologies Used
 
-1. Install dependencies:
-   pip install -r requirements.txt
-2.Run the code:
-   python main.py
-   
-##Author:
-Arpita Raj❤️
+- Python 3
+- Requests
+- Matplotlib
+- Seaborn (optional for further enhancement)
+
+## 🚀 How to Run
+
+1️⃣ Clone the repository:
+
+```bash
+git clone https://github.com/ArpitaRaj-prog/weather-data-visualization.git
+cd weather-data-visualization
+
+2️⃣ (Optional but recommended) Create virtual environment:
+
+python3 -m venv venv
+source venv/bin/activate  # for Mac/Linux
+# OR
+venv\Scripts\activate  # for Windows
+
+3️⃣ Install dependencies:
+
+pip install -r requirements.txt
+
+4️⃣ Run the project:
+
+python main.py
+
+📂 Project Files
+
+main.py — main Python script for fetching and visualizing weather data.
+
+requirements.txt — contains all the required Python packages.
+
+
+💡 Future Enhancements
+
+Add support for multiple cities.
+
+Store data in CSV or database.
+
+More advanced visualizations using Seaborn or Plotly.
+
+
+✨ Author
+
+Arpita Raj ❤️
